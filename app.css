@@ -1,0 +1,280 @@
+.headerbar {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5em;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.856);
+    flex-shrink: 1;
+}
+
+.HeaderText {
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: OMORI_GAME;
+}
+
+.headerright {
+    align-self: center;
+    word-spacing: 0.75em;
+    padding-right: 0.75em;
+}
+
+.headerleft {
+    padding-left: 0.75em;
+}
+
+.layer1bg {
+    position: fixed;
+    right: 1;
+    bottom: 0;
+    top: 6px;
+    z-index: -1;
+}
+
+.layer1 .infobox {
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.infobox {
+    text-align: center;
+    padding: 3.125em 0 3.125em 0em;
+    background: rgba(0, 0, 0, 0.699);
+    border-radius: 1.875em;
+    width: 80%;
+    row-gap: 0.75em;
+    margin: 8em 0 16.875em 0;
+    flex-wrap: wrap;
+}
+
+.layer1 {
+    display: flex;
+    justify-content: center;
+}
+
+.infoboxheader {
+    display: block;
+    color: white;
+    font-family: OMORI_GAME;
+    font-size: 3em;
+}
+
+.infoboxdesc {
+    display: flex;
+    color: white;
+    font-family: OMORI_GAME;
+    font-size: 1.25em;
+}
+
+.infoboxleft {
+    display: flex;
+    flex-direction: column;
+    width: 31.25em;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.infoboxright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 12px;
+}
+
+.layer1img {
+    width: 35vw;
+}
+
+.infobox .infoboxtext {
+    align-self: center;
+}
+
+.infoboxbutton {
+    border-radius: 50px;
+    border: black solid;
+    background-color: white;
+    padding: 0.625rem 2rem 0.625rem 2rem;
+    font-weight: bold;
+    font-family: OMORI_GAME;
+    font-size: 1.5em;
+}
+
+.buttoncontainer {
+    padding-top: 2.5px;
+}
+
+.layer2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background: rgb(25, 25, 25);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(24, 24, 24) 100%);
+    padding: 0 0 2em 0;
+    flex-wrap: wrap;
+}
+
+
+.layer2headertext {
+    color: white;
+    font-family: OMORI_GAME;
+    font-size: 2.5em;
+}
+
+.layer2header {
+    padding: 10px 0 20px 0;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.coverimg,
+.fanartimg,
+.musicimg,
+.merchimg,
+.websiteimg {
+    width: 12em;
+    height: 14em;
+    border-radius: 12px;
+    border: black solid;
+}
+
+.covercontainer,
+.fanartcontainer,
+.musiccontainer,
+.merchcontainer,
+.websitecontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 4em 0em 5em;
+}
+
+.layer2items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.layer2but {
+    font-family: OMORI_GAME;
+    color: white;
+    border-color: white;
+    background-color: black;
+    margin-top: 20px;
+    cursor: default !important;
+}
+
+.layer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('blackspacebg.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    padding: 5em 0em 5em 0em;
+}
+
+.layer3quote {
+    font-family: OMORI_GAME;
+    color: white;
+}
+
+.quotehead {
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 10px rgb(221, 12, 12);
+}
+
+.quotename {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(255, 0, 0);
+    margin-bottom: 40px;
+}
+
+.layer4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(4, 4, 4, 1) 100%);
+}
+
+.l4advert {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 80vh;
+    border-radius: 12px;
+    padding: 24px 24px 24px 24px;
+
+}
+
+.advhead,
+.advmain {
+    font-size: 1em;
+}
+
+.advhead {
+    font-weight: bold;
+}
+
+.advhead {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.advbutton {
+    background-color: black;
+    border: white solid;
+    color: white;
+    font-family: OMORI_GAME;
+    width: 6vw;
+    height: 6vh;
+}
+
+.l4advright {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: rgb(26, 17, 61);
+    padding: 12px 0 12px 0;
+}
+
+.footertext {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 669px) {
+
+    .layer2items,
+    .covercontainer,
+    .merchcontainer,
+    .musiccontainer,
+    .fanartcontainer,
+    .websitecontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1129px) {
+    .layer3quote {
+        flex-direction: column;
+        text-align: center;
+    }
+}
