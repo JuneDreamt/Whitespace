@@ -176,7 +176,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('blackspacebg.jpg');
+    background-image: url('files/blackspacebg.jpg');
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
